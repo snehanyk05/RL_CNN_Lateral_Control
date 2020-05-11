@@ -1,7 +1,7 @@
 # RL_CNN_Lateral_Control
 Reinforcement Learning and CNN for Lateral Control for Autonomous Driving
 Files:
-1. Tf_steer_play
+1. mtl_rl
 2. Torcs-1.3.7
 3. Tracks
 
@@ -27,7 +27,7 @@ Open terminal in the Project Code folder.
 
 Creating Virtual Environment:
 Create an isolated environment for the project. You can pip install required dependencies here. 
-This is created in the tf_steer_play folder
+This is created in the mtl_rl folder
 
 
 1. sudo apt-get install virtualenv
@@ -37,7 +37,7 @@ This is created in the tf_steer_play folder
 
 
 Simulation:
-Open terminal in tf_steer_play folder. Activate the virtual environment.
+Open terminal in mtl_rl folder. Activate the virtual environment.
 
 
 Training: python main.py --mode train
